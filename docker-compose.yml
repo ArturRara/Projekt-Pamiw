@@ -1,14 +1,15 @@
 version: '3'
 
-auth:
-    container_name: auth
-    restart: always
+services:
+  web:
     build:
-      context: .
-      dockerfile: Dockerfile
-    command: []
+    context: .
+    dockerfile: DockerFile
     ports:
-      - "5000:5000"
-
-    links:
-      - redis
+      - "80:80"
+    volumes:
+      - ./myapp:/myapp
+    environment:
+      FLASK_ENV: development
+      FLASK_DEBUG: 1
+  #SQLAlchemy:

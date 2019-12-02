@@ -3,3 +3,4 @@ PyJWT
 flask-swagger-ui==3.20.9
 Flask==1.1.1
 SQLAlchemy
+flask-sqlalchemy

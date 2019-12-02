@@ -3,18 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flask Auth Example</title>
+    <title>Login page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"/>
-    <script type="text/javascript" src="{{ url_for('static', filename='loginPage.js') }}"></script>
 </head>
 
 <body>
 <div class="column is-4 is-offset-4">
     <h3 class="title">Login</h3>
     <div class="box">
-        <form name="panel" onsubmit="submit(); return false">
+        <form action="http://localhost:5000/login" method="post">
             <div class="panel">
                 <header><strong>Sign in</strong></header>
                 <br>
@@ -39,6 +37,7 @@
                 <p>Don't have an account? <a href="/registration">Sign up</a></p>
             </div>
         </form>
+        <a href="/uploads">Upload</a>
     </div>
 </div>
 
