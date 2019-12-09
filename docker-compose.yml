@@ -1,15 +1,21 @@
 version: '3'
-
 services:
-  web:
-    build:
-    context: .
-    dockerfile: DockerFile
+  flask-sample:
+    build: .
+    depends_on:
+      - db
     ports:
-      - "80:80"
-    volumes:
-      - ./myapp:/myapp
+     - "5000:5000"
     environment:
-      FLASK_ENV: development
-      FLASK_DEBUG: 1
-  #SQLAlchemy:
+     - DBUSER=postgres
+     - DBPASS=changeme
+     - DBHOST=db
+     - DBNAME=postgres
+  db:
+    image: postgres:10
+    restart: always
+    environment:
+      POSTGRES_URL : 127.0.0.1:5432
+      POSTGRES_USER : postgres
+      POSTGRES_PW : dbpw
+      POSTGRES_DB : test

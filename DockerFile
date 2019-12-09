@@ -1,4 +1,12 @@
-ROM python:3.7
+FROM alpine:3.7
+
+RUN apk update && \
+    apk add --no-cache bash libffi-dev postgresql-client python3 py3-psycopg2 && \
+    mkdir /app
+
+ADD . /app
+WORKDIR /app
+RUN pip3 install -r docker.requirements.txt && chmod +x wait-for-postgres.sh manage.py
 
 COPY . /app
 
