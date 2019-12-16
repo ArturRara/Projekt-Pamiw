@@ -1,21 +1,17 @@
 version: '3'
 services:
-  flask-sample:
-    build: .
-    depends_on:
-      - db
-    ports:
-     - "5000:5000"
-    environment:
-     - DBUSER=postgres
-     - DBPASS=changeme
-     - DBHOST=db
-     - DBNAME=postgres
-  db:
-    image: postgres:10
+  postgres:
+    image: postgres
     restart: always
     environment:
-      POSTGRES_URL : 127.0.0.1:5432
       POSTGRES_USER : postgres
-      POSTGRES_PW : dbpw
-      POSTGRES_DB : test
+      POSTGRES_PASSWORD : password
+      POSTGRES_DB : users
+  flask-app:
+    build: .
+    depends_on:
+      - postgres
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - .:/app
