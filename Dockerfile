@@ -1,11 +1,10 @@
-FROM python:3
 
-WORKDIR /app
-COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+FROM ubuntu:latest
 
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
 COPY . /app
-
-ENTRYPOINT ["python3"]
+WORKDIR /app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
 CMD ["app.py"]
-EXPOSE 5000

@@ -16,7 +16,7 @@ app.config['JWT_AUTH_USERNAME_KEY'] = 'email'
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = datetime.timedelta(minutes=5)
 jwt = JWTManager(app)
 app.config['SECRET_KEY'] = "secret"
-DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres", pw="postgres", url="localhost:5433",
+DB_URL = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user="postgres", pw="postgres", url="postgres",
                                                                db="postgres")
 # app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://lvfufmkfbedubw:a844463ec39a52848956642ee9bb431d1b5439ef6e6a38cc6715721da4ba5787@ec2-54-247-72-30.eu-west-1.compute.amazonaws.com:5432/dciikefmk2ajh3"
 app.config['SQLALCHEMY_DATABASE_URI'] = DB_URL
