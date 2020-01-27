@@ -1,10 +1,12 @@
-FROM node:9.6.1 as react-build
+FROM node:9.6.1
 
-ADD . /usr/src/app/
+RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app/
-RUN npm install --silent
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-EXPOSE 3000
-CMD [ "npm", "run"]
+COPY package.json /usr/src/app/package.json
+RUN npm install --silent
+RUN npm install react-scripts@1.1.1 -g --silent
+
+CMD ["npm", "start"]

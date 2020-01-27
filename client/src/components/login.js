@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Login} from './UserFunctions'
 
+
 class login extends Component {
     constructor() {
         super()
@@ -70,7 +71,14 @@ class login extends Component {
                                 Sign in
                             </button>
                         </form>
+                        <br />
+                        <div className="auth-buttons text-center">
+                            <button bsStyle="primary" href= "/oauth">
+                                Sign in with Twitter
+                            </button>
+                        </div>
                     </div>
+
                 </div>
             </div>
         )

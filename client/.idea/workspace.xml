@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ae98c4-af3f-404d-a4c9-af175191a28d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserFunctions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReactApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +36,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1WIkkZhOMiQ41w2h782KbqNuqZu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,16 +58,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.eslint" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -57,7 +80,7 @@
       <scripts>
         <script value="start" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="C:/Program Files/nodejs/node" />
       <envs />
       <method v="2" />
     </configuration>
@@ -88,10 +111,12 @@
       <workItem from="1578845170144" duration="916000" />
       <workItem from="1578850637773" duration="11014000" />
       <workItem from="1578865767908" duration="16642000" />
-      <workItem from="1578895670176" duration="3177000" />
-      <workItem from="1578937852144" duration="76000" />
-      <workItem from="1578950919940" duration="64000" />
-      <workItem from="1578950990527" duration="266000" />
+      <workItem from="1578895670176" duration="3188000" />
+      <workItem from="1578937523000" duration="281000" />
+      <workItem from="1578937837265" duration="13000" />
+      <workItem from="1580033652365" duration="3817000" />
+      <workItem from="1580046423109" duration="2360000" />
+      <workItem from="1580053440711" duration="34881000" />
     </task>
     <servers />
   </component>
@@ -102,38 +127,58 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="177" key="#ESLint" timestamp="1578857331452">
+    <state x="875" y="226" key="#Docker" timestamp="1578937709912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="177" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1578857331452" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578950987392">
+    <state x="875" y="226" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1578937709912" />
+    <state x="1002" y="181" key="#Dockerfile" timestamp="1578937732649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578950987392" />
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1578937928046">
+    <state x="1002" y="181" key="#Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1578937732649" />
+    <state x="552" y="177" key="#ESLint" timestamp="1580034359415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578937928046" />
-    <state width="1898" height="277" key="GridCell.Tab.0.center" timestamp="1578937928046">
+    <state x="552" y="177" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1580034359415" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580083767539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578937928046" />
-    <state width="1898" height="277" key="GridCell.Tab.0.left" timestamp="1578937928046">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580083767539" />
+    <state x="679" y="217" key="#npm_start" timestamp="1580034391481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578937928046" />
-    <state width="1898" height="277" key="GridCell.Tab.0.right" timestamp="1578937928046">
+    <state x="679" y="217" key="#npm_start/0.0.1920.1040@0.0.1920.1040" timestamp="1580034391481" />
+    <state x="1035" y="384" key="FileChooserDialogImpl" timestamp="1580036839835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578937928046" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1578897007640">
+    <state x="1035" y="384" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580036839835" />
+    <state width="1882" height="277" key="GridCell.Tab.0.bottom" timestamp="1580104045506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578897007640" />
-    <state x="657" y="252" width="606" height="536" key="find.popup" timestamp="1578877466244">
+    <state width="1882" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580104045506" />
+    <state width="1882" height="277" key="GridCell.Tab.0.center" timestamp="1580104045506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="657" y="252" width="606" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578877466244" />
+    <state width="1882" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580104045506" />
+    <state width="1882" height="277" key="GridCell.Tab.0.left" timestamp="1580104045506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1882" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580104045506" />
+    <state width="1882" height="277" key="GridCell.Tab.0.right" timestamp="1580104045506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1882" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580104045506" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1580082843296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580082843296" />
+    <state x="657" y="252" width="606" height="536" key="find.popup" timestamp="1580063207626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="252" width="606" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580063207626" />
+    <state x="677" y="327" key="jetbrains.nodejs.interpreters-dialog" timestamp="1580034343265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="327" key="jetbrains.nodejs.interpreters-dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580034343265" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578896320195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
